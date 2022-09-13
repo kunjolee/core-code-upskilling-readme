@@ -1,9 +1,9 @@
 # core-code-upskilling-readme
-# My solutions
+## My solutions
 
-## Tuesday 9/13/2022
+### Tuesday 9/13/2022
 
-### 1. Ensure Question
+#### 1. Ensure Question
 ```js
 function ensureQuestion(s) { 
   return s.endsWith('?') 
@@ -12,7 +12,7 @@ function ensureQuestion(s) {
 }
 ```
   
-### 2. Reverse Sentence
+#### 2. Reverse Sentence
 ```js
 function reverseWords(str){  
   return str.split(" ").reverse().join(" ")
