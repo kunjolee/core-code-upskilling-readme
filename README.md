@@ -1,9 +1,19 @@
-# core-code-upskilling-readme
-## My solutions
+# core-code-upskilling-readme | solutions
 
-### Tuesday 9/13/2022
+## Wednesday 9/14/2022
 
-#### 1. Ensure Question
+### 1. Smallest Integer In Array
+```js
+class SmallestIntegerFinder {
+  findSmallestInt(args) {        
+    return Math.min(...args)
+  }
+}
+```
+
+## Tuesday 9/13/2022
+
+### 1. Ensure Question
 ```js
 function ensureQuestion(s) { 
   return s.endsWith('?') 
@@ -12,9 +22,11 @@ function ensureQuestion(s) {
 }
 ```
   
-#### 2. Reverse Sentence
+### 2. Reverse Sentence
 ```js
 function reverseWords(str){  
   return str.split(" ").reverse().join(" ")
 }
 ```
+
+  
