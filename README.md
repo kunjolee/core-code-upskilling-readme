@@ -1,5 +1,14 @@
 # core-code-upskilling-readme | solutions
 
+## Monday 9/19/2022
+
+```js
+function isPalindrome(line) {
+  let allString = line.toString();    
+  return allString.split('').reverse('').join('') === allString
+  ;
+}
+```
 ## Friday 9/16/2022
 
 ```js
