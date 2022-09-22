@@ -1,6 +1,27 @@
 # core-code-upskilling-readme | solutions
+## Week 2
+### Tuesday 9/19/2022
 
-## Monday 9/19/2022
+```js
+  function well(x){
+     
+  const res = x.reduce( (acc, el)=> {        
+    return (el === "good") 
+      ? acc + 1     
+      : acc + 0;          
+  }, 0 )
+  
+  
+  return res === 0
+     ? 'Fail!'
+     : (res > 0 && res < 3) 
+       ? 'Publish!'
+       : 'I smell a series!'      
+  }
+
+```
+
+### Monday 9/19/2022
 
 ```js
 function isPalindrome(line) {
@@ -8,8 +29,10 @@ function isPalindrome(line) {
   return allString.split('').reverse('').join('') === allString
   ;
 }
+
+## Week 1
 ```
-## Friday 9/16/2022
+### Friday 9/16/2022
 
 ```js
 function oddOrEven(array) {          
@@ -18,7 +41,7 @@ function oddOrEven(array) {
 }
 ```
 
-## Wednesday 9/14/2022
+### Wednesday 9/14/2022
 
 ### 1. Smallest Integer In Array
 ```js
