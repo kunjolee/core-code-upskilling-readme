@@ -1,6 +1,8 @@
 # core-code-upskilling-readme | solutions
-## Week 2
-## Tuesday 
+
+## Week 2 
+
+## Tuesday 9/20/2022
 ### Well Of Ideas 9/20/2022
 
 ```js
